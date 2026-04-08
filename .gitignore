@@ -1,0 +1,14 @@
+.vscode/
+.idea/
+venv/
+__pycache__/
+*.pyc
+
+runs/
+dataset/
+trained/
+pretrained/
+logs/
+
+tmp_*.json
+*.tmp
