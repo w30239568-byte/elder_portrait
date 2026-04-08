@@ -40,7 +40,7 @@ python train_elder_portrait.py --data_path dataset/storywell_raw_split_new.csv
 python run_model_api.py \
   --checkpoint runs/elder_portrait/best_model.pt \
   --mapping_path runs/elder_portrait/label_mapping.json \
-  --input_json contracts/analyze_v1.request.example.json \
+  --input_json your_request.json \
   --output_json runs/analyze_result.json
 ```
 
